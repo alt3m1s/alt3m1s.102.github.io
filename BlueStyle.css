@@ -1,0 +1,8 @@
+/* Estilo para etiquetas h2 */
+.BlueStyle {
+    color: rgb(23, 144, 148); /* Cambia el color de texto a rojo */
+    font-size: 24px; /* Cambia el tamaño de fuente a 24px */
+    /* Agrega un fondo sombreado */
+    background: rgba(0, 0, 0, 0.2); /* Utiliza un fondo semi-transparente, puedes ajustar el color y la opacidad según tus preferencias */
+    padding: 10px; /* Agrega un espacio alrededor del texto para que el fondo sea visible */
+}
