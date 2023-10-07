@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* Estilos para el contenedor */
+        .code-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* Estilos para la columna de código */
+        .code-column {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-right: 10px;
+            overflow: auto; /* Agregar barra de desplazamiento en caso de contenido largo */
+        }
+
+        /* Estilos para la columna de resultado */
+        .result-column {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            overflow: auto; /* Agregar barra de desplazamiento en caso de contenido largo */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Contenedor para el código HTML y su resultado -->
+    <div class="code-container">
+        <!-- Columna de código -->
+        <div class="code-column">
+            <!-- Código HTML -->
+            <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Mi Página&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hola, Mundo!&lt;/h1&gt;
+    
+&lt;/body&gt;
+&lt;/html&gt;
+            </pre>
+        </div>
+        
+        <!-- Columna de resultado -->
+        <div class="result-column">
+            <!-- Resultado -->
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <title>Mi Página</title>
+            </head>
+            <body>
+                <h1>Hola, Mundo!</h1>
+                <p>Ejemplo Doctype (Este ejemplo abarca todo el formato HTML y todas las etiquetas basicas siguientes mas abajo ya que, las etiquetas basicas son la estructura de HTML).</p>
+            </body>
+            </html>
+        </div>
+    </div>
+
+</body>
+
+</html>

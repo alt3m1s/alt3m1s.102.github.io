@@ -1,0 +1,25 @@
+/* styles.css */
+
+/* Estilos para el contenedor */
+.code-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos para la columna de código */
+.code-column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    overflow: auto; /* Agregar barra de desplazamiento en caso de contenido largo */
+}
+
+/* Estilos para la columna de resultado */
+.result-column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    overflow: auto; /* Agregar barra de desplazamiento en caso de contenido largo */
+}
+
