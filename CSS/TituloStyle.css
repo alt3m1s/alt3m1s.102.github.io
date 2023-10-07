@@ -1,13 +1,13 @@
 /* Estilo para el título h1 */
 .TituloStyle {
-    color: blue; /* Cambia el color de texto a azul */
+    color: rgb(6, 197, 142); /* Cambia el color de texto a azul */
     font-size: 32px; /* Cambia el tamaño de fuente a 32px */
     font-weight: bold; /* Hace que el texto sea negrita */
     /* Agrega un fondo sombreado */
     background: rgba(255, 0, 0, 0.2); /* Utiliza un fondo rojo semi-transparente, puedes ajustar el color y la opacidad según tus preferencias */
     padding: 10px; /* Agrega un espacio alrededor del texto para que el fondo sea visible */
     /* Agrega otro fondo de color amarillo */
-    background-image: linear-gradient(to bottom, rgb(40, 153, 100), yellow); /* Cambia el color de fondo a amarillo */
+    background-image: linear-gradient(to bottom, rgb(40, 153, 100), rgb(110, 110, 80)); /* Cambia el color de fondo a amarillo */
     background-repeat: no-repeat; /* Evita que se repita el fondo */
     background-position: left bottom; /* Posición del fondo en la parte inferior izquierda */
 }
